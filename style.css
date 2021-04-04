@@ -1,0 +1,142 @@
+*{
+    margin: 1px;
+}
+body
+{
+    display: flex;
+    background-color: aqua;
+    background: linear-gradient(90deg,aqua,rgb(116, 245, 223));
+    justify-content: center;
+    
+}
+#colordesign,#colordesign1
+{
+    z-index: -1;
+    height: 717px;
+    width: 550px;
+    background: linear-gradient(to bottom,rgba(9, 255, 0, 0.493),rgb(199, 255, 192));
+    clip-path: polygon(51% 30%, 77% 30%, 29% 100%, 0% 100%);
+
+} 
+#colordesign1
+{
+    z-index: -1;
+    height: 717px;
+    width: 550px;
+    background: linear-gradient(to bottom,rgba(230, 236, 229, 0.493),rgb(253, 100, 11));
+    clip-path: polygon(51% 30%, 77% 30%, 29% 100%, 0% 100%);
+    position: absolute;
+    left: 0px;
+}
+#colordesign2
+{
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    height: 717px;
+    width: 550px;
+    background: linear-gradient(to bottom,rgba(251, 255, 0, 0.493),rgb(13, 117, 214));
+    clip-path: polygon(51% 30%, 77% 30%, 29% 100%, 0% 100%);
+}
+
+
+.form-container
+{
+    
+    position: absolute;
+    top: 2%;
+    left: 150px;
+    text-align: center;
+    font-size: 50px;
+}
+.form-container1
+{
+    
+    position: absolute;
+    top: 2%;
+    right: 150px;
+    text-align: center;
+    font-size: 50px;
+}
+strong
+{
+    color: red;
+}
+form
+{
+    background-color: aliceblue;
+    border-radius: 4%;
+    box-shadow: 0 0 20px black;
+    width: 500px;
+    height: 600px;
+}
+.data
+{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    text-align: left;
+    font-size: x-large;
+
+}
+label
+{
+    text-decoration: black;
+    text-shadow: 0 0 5px grey;
+    font-weight: bolder;
+}
+#fname,#lname,#EID,#RollNo
+{
+    border: solid rgba(95, 93, 93, 0.678);
+    border-radius: 5%;
+    width: 220px;
+    height: 30px;
+
+}
+#RollNO
+{
+    position: absolute;
+    left: 0PX;
+}
+#genselec
+{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 10px;
+}
+#percentage
+{
+    font-weight: bolder;
+    border-style: none;
+    font-size: large;
+}
+
+#marks
+{
+    width: 60px;
+    border-style: none;
+    border-bottom: solid black 5px;
+    
+}
+#marks:focus
+{
+    outline: none;
+}
+/* hide the arrows in input type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#btn
+{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+}
+#btn1:hover
+{
+    background-color: rgb(236, 156, 156);
+}
